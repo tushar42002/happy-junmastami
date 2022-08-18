@@ -1,0 +1,199 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+
+body{
+        box-sizing: border-box;
+        background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+}
+/* -----header section  start */
+
+ /* -----navbar start----- */
+.header nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #5c7dfe;
+        height: 60px;
+}
+
+   /* ----logo image----- */
+.logo a img{
+        width: 50px;
+        padding: 10px 5px;
+        border-radius: 50%;
+}
+
+/* ---------menu-------- */
+nav .menu{
+        margin-right: 2vw;
+}
+nav .menu ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+       
+}
+nav .menu ul li{
+        margin: 5px;
+        padding: 5px;
+}
+
+nav .menu ul li a{
+        text-decoration: none;
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 1.8vw;
+}
+
+
+/* ----------navbar ends------- */
+
+/* -------Banner ------- */
+.banner{
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.banner img{
+        height: 50vh;
+        width: 100vw;
+}
+/* -----header section  end */
+
+.heading {
+        text-align: center;
+        margin: 50px;
+        text-transform: capitalize;
+        clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+        background-color: rgba(203, 241, 153, 0.747);
+        padding: 30px;
+}
+.heading h1{
+       font-size: 2vw;
+       color: #29303d;
+}
+
+/* ----story start--------- */
+
+.body{
+        margin: 50px;
+}
+span.main-heading{
+        font-size: 3vw;
+}
+span{
+        font-size: 2vw;
+        margin: 30px;
+        font-weight: 700;
+}
+
+.story{
+        margin: 50px 200px;
+}
+.link{
+        width: 10vw;
+        margin-top: 30px;
+        padding: 10px;
+        text-align: center;
+}
+.link a{
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        text-decoration: none;
+        text-transform: capitalize;
+        border-radius: 10px;
+        background-color: #5c7dfe;
+        color: #fff;
+        font-size: 1vw;
+}
+
+/* ----thought---*/
+
+.boxes{
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 90vw;
+        margin: auto;
+}
+
+.boxes .box{
+        flex-basis: 40%;
+        border: 1px solid #1dc661;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 30vh;
+        padding: 0.2vw;
+        margin: 7px;
+        font-size: 1.3vw;
+        font-weight: 600;
+        color: #5c7dfe;
+        line-height: 4vh;
+}
+
+/* geta */
+section.geta{
+        width: 70%;
+        margin: auto;
+}
+
+.getapdf iframe{
+        margin-top: 70px;
+        width: 100%;
+        height: 500px;
+}
+
+.geta .download{
+        width: 10vw;
+        margin-top: 30px;
+        padding: 10px;
+        text-align: center;
+}
+
+.geta .download a{
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        text-decoration: none;
+        text-transform: capitalize;
+        border-radius: 10px;
+        background-color: #5c7dfe;
+        color: #fff;
+        font-size: 1vw;
+}
+
+/* ------wallpaper------ */
+.wallpaper{
+        display: flex;
+        /* flex-direction: row; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        flex-wrap: wrap;
+        width: 90vw;
+}
+
+.wallpaper .pc-wallpaper{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        width: 90vw;
+        margin: auto;
+}
+
+.wallpaper .pc-wallpaper img{
+        max-width: 250px;
+        height: auto;
+        border: 1px blue;
+        margin: 5px;
+}
